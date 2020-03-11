@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solar System WebQuest</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rocket.svg">
+    <script src="https://kit.fontawesome.com/34c09f870f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 style="margin-top: 2em !important">JOURNEY THROUGH THE
+        <span class="to-bold">SOLAR SYSTEM</span>
+    </h1>
+
+    <h2>TEACHER ASSISTANCE</h2>
+    <p>This WebQuest is intended to introduce students from the 5th/6th grade to the defining characteristics of
+        our Solar System's planets. Some basic introduction to this topic might be needed, as the WebQuest uses
+        terms generally specific to space exploration (i.e. satellites).</p>
+    <p>The activity is meant for classes of 16 to 24 students. Ideally, the class should be divided into 8
+        groups of 2-3 students in order to have each group make a poster about a different planet, but this
+        structure may be changed to accommodate the teacher's/students' needs. The students are expected to
+        complete the two tasks in about a week.</p>
+    <p>You may suggest any changes to the WebQuest by contacting me through any of the methods below.</p>
+
+    <h2>CONTACTS</h2>
+    <p>This WebQuest was created by Diogo Dores in March 2020 as a project for the Educational Software course
+        in the Faculty of Engineering of the University of Porto. You may use this WebQuest as you please, and I'd
+        be happy to receive any feedback about it.</p>
+    <p style="margin-top: 1em; margin-bottom: 2em;"><i class="fas fa-envelope"></i>diogo.dores@gmail.com <i
+            class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/diogo-dores97/"
+            style="text-decoration: none; color: antiquewhite;">Diogo
+            Dores</a></p>
+
+
+    <button><a href="index.html">Go Back</a></button>
+
+    <style lang="css">
+        h1,
+        h2 {
+            color: antiquewhite;
+            font-family: 'Lato';
+            font-weight: 300;
+            letter-spacing: 3px;
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-top: 5em;
+            margin-bottom: 2em;
+        }
+
+        p {
+            color: antiquewhite;
+            font-family: 'Nunito';
+            margin: auto 15em;
+            font-size: 18px;
+            line-height: 1.8em;
+            font-weight: 300;
+        }
+
+        i {
+            margin-right: 0.4em;
+        }
+
+        button {
+            margin-top: 1em;
+            margin-bottom: 2em;
+            background-color: #1b2735;
+            border: 1px solid #EC9D2B;
+            padding: 1em;
+            font: 'Lato';
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        button a {
+            color: antiquewhite;
+            text-decoration: none;
+        }
+
+        body {
+            width: 100%;
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            text-align: center;
+            margin: 0;
+            padding: 10em auto;
+        }
+    </style>
+
+    <script>
+        var myNav = document.getElementById("nav-header");
+
+        window.onscroll = function () {
+            "use strict";
+            if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
+                myNav.classList.add("scrolled");
+            } else {
+                myNav.classList.remove("scrolled");
+            }
+        };
+    </script>
+</body>
+
+</html>
